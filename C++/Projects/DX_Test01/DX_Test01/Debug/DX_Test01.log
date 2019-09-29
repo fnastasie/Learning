@@ -1,0 +1,3 @@
+﻿  FrameWork.cpp
+z:\work\repositories\learning\c++\projects\dx_test01\dx_test01\framework.cpp(22): error C2664: 'bool FrameWork::CreateDXWindow(char *,int,int,int,int)': cannot convert argument 1 from 'const char [10]' to 'char *'
+  z:\work\repositories\learning\c++\projects\dx_test01\dx_test01\framework.cpp(22): note: Conversion from string literal loses const qualifier (see /Zc:strictStrings)
