@@ -1,18 +1,7 @@
-﻿  Draw.cpp
-  Snake2.cpp
-Snake2.obj : error LNK2005: "int fruitY" (?fruitY@@3HA) already defined in Draw.obj
-Snake2.obj : error LNK2005: "enum eDirection dir" (?dir@@3W4eDirection@@A) already defined in Draw.obj
-Snake2.obj : error LNK2005: "bool gameOver" (?gameOver@@3_NA) already defined in Draw.obj
-Snake2.obj : error LNK2005: "int * tailX" (?tailX@@3PAHA) already defined in Draw.obj
-Snake2.obj : error LNK2005: "int * tailY" (?tailY@@3PAHA) already defined in Draw.obj
-Snake2.obj : error LNK2005: "int score" (?score@@3HA) already defined in Draw.obj
-Snake2.obj : error LNK2005: "int y" (?y@@3HA) already defined in Draw.obj
-Snake2.obj : error LNK2005: "int nTail" (?nTail@@3HA) already defined in Draw.obj
-Snake2.obj : error LNK2005: "int fruitX" (?fruitX@@3HA) already defined in Draw.obj
-Snake2.obj : error LNK2005: "int x" (?x@@3HA) already defined in Draw.obj
-Draw.obj : error LNK2005: main already defined in Draw.obj
-Draw.obj : error LNK2005: "void __cdecl Logic(void)" (?Logic@@YAXXZ) already defined in Draw.obj
-Draw.obj : error LNK2005: "void __cdecl Input(void)" (?Input@@YAXXZ) already defined in Draw.obj
-Draw.obj : error LNK2005: "void __cdecl Draw(void)" (?Draw@@YAXXZ) already defined in Draw.obj
-Draw.obj : error LNK2005: "void __cdecl Setup(void)" (?Setup@@YAXXZ) already defined in Draw.obj
-Z:\Work\Repositories\Learning\C++\Projects\Snake2\x64\Release\Snake2.exe : fatal error LNK1169: one or more multiply defined symbols found
+﻿  Snake2.cpp
+  Generating code
+  2 of 15 functions (13.3%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    0 functions had inline decision re-evaluated but remain unchanged
+  Finished generating code
+  Snake2.vcxproj -> Z:\Work\Repositories\Learning\C++\Projects\Snake2\x64\Release\Snake2.exe
