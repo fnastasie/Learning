@@ -1,1 +1,18 @@
-﻿C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.Cpp.WindowsSDK.targets(46,5): error MSB8036: The Windows SDK version 10.0.17763.0 was not found. Install the required version of Windows SDK or change the SDK version in the project property pages or by right-clicking the solution and selecting "Retarget solution".
+﻿  Draw.cpp
+  Snake2.cpp
+Snake2.obj : error LNK2005: "int fruitY" (?fruitY@@3HA) already defined in Draw.obj
+Snake2.obj : error LNK2005: "enum eDirection dir" (?dir@@3W4eDirection@@A) already defined in Draw.obj
+Snake2.obj : error LNK2005: "bool gameOver" (?gameOver@@3_NA) already defined in Draw.obj
+Snake2.obj : error LNK2005: "int * tailX" (?tailX@@3PAHA) already defined in Draw.obj
+Snake2.obj : error LNK2005: "int * tailY" (?tailY@@3PAHA) already defined in Draw.obj
+Snake2.obj : error LNK2005: "int score" (?score@@3HA) already defined in Draw.obj
+Snake2.obj : error LNK2005: "int y" (?y@@3HA) already defined in Draw.obj
+Snake2.obj : error LNK2005: "int nTail" (?nTail@@3HA) already defined in Draw.obj
+Snake2.obj : error LNK2005: "int fruitX" (?fruitX@@3HA) already defined in Draw.obj
+Snake2.obj : error LNK2005: "int x" (?x@@3HA) already defined in Draw.obj
+Draw.obj : error LNK2005: main already defined in Draw.obj
+Draw.obj : error LNK2005: "void __cdecl Logic(void)" (?Logic@@YAXXZ) already defined in Draw.obj
+Draw.obj : error LNK2005: "void __cdecl Input(void)" (?Input@@YAXXZ) already defined in Draw.obj
+Draw.obj : error LNK2005: "void __cdecl Draw(void)" (?Draw@@YAXXZ) already defined in Draw.obj
+Draw.obj : error LNK2005: "void __cdecl Setup(void)" (?Setup@@YAXXZ) already defined in Draw.obj
+Z:\Work\Repositories\Learning\C++\Projects\Snake2\x64\Release\Snake2.exe : fatal error LNK1169: one or more multiply defined symbols found
