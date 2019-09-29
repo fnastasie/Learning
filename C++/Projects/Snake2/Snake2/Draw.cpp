@@ -1,6 +1,8 @@
+#include <iostream>
+#include <Windows.h>
+#include "Snake2.cpp"
 
-
-using namespace std
+using namespace std;
 
 void Draw()
 {
